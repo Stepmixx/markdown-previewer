@@ -1,0 +1,118 @@
+.previewer-container {
+  margin-top: 25px;
+  width: min(800px, 90vw);
+}
+
+.previewer-container .previewer-header {
+  background: #9d4edd;
+  width: 100%;
+  height: 30px;
+  color: white;
+  font-size: min(1.2rem, 6vw);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.previewer-container .previewer-header button {
+  font-size: min(1.5rem, 8vw);
+  color: white;
+  border: none;
+  background: none;
+  margin-right: 10px;
+}
+
+.previewer-container .previewer-header h3 {
+  margin-left: 10px;
+}
+
+.previewer-container .preview-container {
+  background: #e0aaff;
+  min-height: 250px;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.previewer-container .preview-container #preview {
+  height: 95%;
+  width: 90%;
+}
+
+.previewer-container .preview-container #preview blockquote {
+  border-left: 3px solid #224b4b;
+  color: #224b4b;
+  padding-left: 5px;
+  margin-left: 25px;
+}
+
+.previewer-container .preview-container #preview > p > code {
+  padding: 3px;
+}
+
+.previewer-container .preview-container #preview code {
+  background: white;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.previewer-container .preview-container #preview pre {
+  display: block;
+  overflow: auto;
+  background: white;
+  padding: 5px;
+  line-height: 1.2;
+}
+
+.previewer-container .preview-container #preview h1 {
+  border-bottom: 2px solid black;
+}
+
+.previewer-container .preview-container #preview h2 {
+  border-bottom: 1px solid black;
+}
+
+.previewer-container .preview-container #preview table {
+  border-collapse: collapse;
+}
+
+.previewer-container .preview-container #preview td,
+.previewer-container .preview-container #preview th {
+  border: 2px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.previewer-container .preview-container #preview img {
+  display: block;
+  max-width: 90%;
+  margin: 2rem auto;
+}
+
+.minimized {
+  height: 250px;
+}
+
+.maximized {
+  height: 90vh;
+}
+
+.maximized .preview-container {
+  height: 87vh;
+}
+/*# sourceMappingURL=Previewer.css.map */
